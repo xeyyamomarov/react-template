@@ -1,0 +1,70 @@
+.register-offer {
+    background-color: rgb(241, 240, 254);
+    border-radius: 0 200px 200px 0;
+    width: 60%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .register-offer .contact h6 {
+    color: #7a6ad8;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .register-offer .contact h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 20px 0;
+    line-height: 44px;
+  }
+  .register-offer .contact p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+  }
+  .sales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 25px;
+    width: 60%;
+  }
+  .sales .special-offer span {
+    background-color: #7a6ad8;
+    width: 80px;
+    padding: 30px 8px;
+    line-height: 25px;
+    height: 120px;
+    border-radius: 15px 60px 60px 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a6ad8;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  .icon a{
+    color: white;
+  }
+
+  @media screen and (max-width: 960px) {
+  .register .register-offer {
+    width: 100%;
+    background-color: white;
+  }
+
+}

@@ -1,0 +1,112 @@
+.courses {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid blue;
+  min-height: 100vh;
+}
+.courses-section h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #7a6ad8;
+  font-weight: bold;
+  text-align: center;
+}
+.courses-section h2 {
+  font-size: 36px;
+  line-height: 44px;
+  margin: 20px 0;
+  font-weight: bold;
+  text-align: center;
+}
+.events {
+  background-color: #f1f0fe;
+  border-radius: 50px;
+  max-width: max-content;
+}
+.events ul {
+  display: flex;
+  /* list-style: none; */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.events ul li a {
+  text-decoration: none;
+  margin: 15px;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+.events ul li {
+  list-style: none;
+}
+.events ul li a:hover {
+  color: #7a6ad8;
+}
+
+.events-info {
+  margin-top: 10px;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.event-info img {
+  width: 300px;
+  height: 300px;
+}
+.event-info {
+  background-color: #f1f0fe;
+  border-radius: 25px;
+}
+.events-img {
+  position: relative;
+  /* border: 1px solid; */
+}
+.events-info .events-img img {
+  border-radius: 25px;
+}
+.events-img span {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  background-color: #fff;
+  color: #7a6ad8;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+}
+.events-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.events-content span {
+  color: #7a6ad8;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.events-content h4 {
+  font-size: 22px;
+  font-weight: bold;
+  transition: all 0.3s;
+  text-transform: capitalize;
+}
+.events-content h4:hover {
+  color: #7a6ad8;
+}
+@media screen and (max-width: 960px) {
+  .events-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

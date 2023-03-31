@@ -1,0 +1,126 @@
+.events-coming {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .events-coming .event-header {
+    text-align: center;
+  }
+  .event-header h6 {
+    color: #7a6ad8;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .event-header h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 20px 0;
+    line-height: 44px;
+  }
+  .events-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .event-item {
+    background-color: #f1f0fe;
+    border-radius: 25px;
+    position: relative;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    width: 80vw;
+    margin-bottom: 80px;
+  }
+  .event-item .event-text {
+    width: 40%;
+  }
+  .event-item .event-img img {
+    position: relative;
+    bottom: 60px;
+    border-radius: 25px;
+    margin-right: 20px;
+  }
+  .event-item .event-data ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* width: 50vw; */
+  }
+  .event-date {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .event-date li {
+    margin: 20px;
+  }
+  .event-data .category {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(122, 106, 216);
+    background-color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .event-data ul li h4 {
+    font-size: 22px;
+    font-weight: 600;
+    width: 200px;
+  }
+  .event-data ul li h6 {
+    font-size: 16px;
+    color: rgb(122, 106, 216);
+    font-weight: 600;
+  }
+  .event-data ul li span {
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(74, 74, 74);
+    margin-bottom: 10px;
+  }
+  .event-icon{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7a6ad8;
+    border-radius: 60px 0 0 60px;
+    color: white;
+    position: relative;
+    left:40px ;
+  }
+ 
+  @media screen and (max-width: 960px) {
+
+  .events-item {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .event-item {
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 350px;
+    align-items: center;
+  }
+  .event-item .event-img img {
+    width: 200px;
+    height: 200px;
+  }
+  .event-data ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .event-data .event-text {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+}
