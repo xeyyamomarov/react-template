@@ -1,7 +1,7 @@
 import "./style.css"
 const AboutUs = () => {
   return (
-    <div className="about container">
+    <div className="about">
     <div className="about-content">
       <h6>About US</h6>
       <h2>

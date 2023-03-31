@@ -57,7 +57,12 @@
   @media screen and (max-width:960px) {
     .teams {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns:auto auto;
       gap: 10px;
+    }
+
+    .member-img{
+      position: relative;
+      bottom: 5px;
     }
   }

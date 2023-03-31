@@ -1,7 +1,8 @@
 .about {
-    width: 40%;
+    width: 800px;
     background-color: #f1f0fe;
-    position: absolute;
+    /* position: absolute; */
+    border: 1px solid black;
     /* height: 80%; */
    right: 0;
     /* top: 50%;  */
@@ -31,12 +32,14 @@
     text-transform: capitalize;
     margin: 20px 0;
     line-height: 44px;
+    
   }
   .about-content p {
     line-height: 28px;
     font-size: 14px;
     color: #4a4a4a;
     text-align: center;
+    padding: 20px;
   }
   .main{
       margin-top: 20px;

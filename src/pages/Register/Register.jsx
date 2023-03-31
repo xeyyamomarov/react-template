@@ -5,10 +5,10 @@ import "./style.css"
 const Register = () => {
   return (
     <div className="register">
-        <div className="container">
+        {/* <div className="container"> */}
             <Contact/>
             <Form/>
-        </div>
+        {/* </div> */}
       
     </div>
   )
